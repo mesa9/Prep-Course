@@ -6,7 +6,7 @@ const nuevaString = 'hola';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 5;
-
+ 
 // Crea una variable booleana:
 const nuevoBool = true;
 
@@ -27,15 +27,15 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código:
+  // Tu código: Return str
   
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código: suma (x + y )
-  
+<<<<<<< HEAD
+  // Tu código: suma ( 10 + 9) 
   
 }
 
