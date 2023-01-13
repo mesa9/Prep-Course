@@ -2,9 +2,10 @@
 
 function obtenerMayor(x, y) {
 
-  (x > y) {
+ if (x > y) {
     return x;
-  } {
+  } 
+  else {
     return y;
   }
   }
@@ -12,12 +13,12 @@ function obtenerMayor(x, y) {
 function mayoriaDeEdad(edad) {
    if (edad >= 18) 
   return "allowed";
-} else { 
+else { 
   return "not allowed";
 }
-  
+}
 function conection(status) {
-  If ( status === 1) {
+  if ( status === 1) {
   return "online";
 }
    else if (status === 2) {
@@ -32,6 +33,17 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if (idioma === "aleman")
+  {return "Guten Tag!";
+}
+  if (idioma === "mandarin")
+  {return "Ni Hao!";
+}
+if (idioma === "ingles")
+{return "Hello!";
+} else { 
+  return "Hola!";
+}
 }
 
 function colors(color) {
